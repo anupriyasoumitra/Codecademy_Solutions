@@ -1,91 +1,84 @@
-# Rest all
+# Solutions
 Only the elements to be modified in main.css are give below rest of the code of main.html and main.css remains the same.
 
-### 4. font-familty
+### 2. Create a Border
 	
-	h1 {
-		font-size: 32px;
-        	font-family: Palatino, 'Palatino Linotype', serif;
+	.gallery-item {
+		 margin: 2px;
+ 		 border: 5px solid #FFF;
 	}
 	
-### 5. color
+### 3. Working with Padding
 	
-	h1 {
-		font-size: 32px;
-	 	font-family: Palatino, 'Palatino Linotype', serif;
-	  	color: red;
-	  	color: Chocolate;
-	  	color: #d8dabe;
-	  	color: rgb(46,105,163); 
+	.page-description {
+  		border: 1px solid #000;
+  		text-align: center;
+  		padding: 30px;
 	}
 	
-### 6. CSS Class Selector
+### 4. Working with Margin
 	
-	.hero {
-		padding: 250px 0;
-		margin: 30px;
-	 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	.gallery-item {
+  		margin: 20px;
+  		border: 5px solid #FFF;
+	}
+	
+### 5. More Margins
+	
+	.gallery {
+  		display: flex;
+  		flex-wrap: wrap;
+  		justify-content: center;
+  		margin-top: 20px;
+	}
+	
+	
+### 6. Understanding Display
+	
+	Familiarize yourself with block and inline display types, then click Next to continue.
+	
+### 7. Keep It Inline
+	
+	nav li {
+  		margin: 0;
+  		padding: 0 10px;
+   		display: inline;
+	}
+		
+### 8. Using Float
+	
+	.contact-btn {
+		float : right;
+	}
+	
+### 9. Display Flex
+	
+	.gallery {
+  		margin-top: 20px;
+  		display: flex;
+  		flex-wrap: wrap;
+  		justify-content: center;
+	}
+	
+### 10. Working with Positions
 
+	.contact-btn a {
+  		cursor: pointer;
+  		margin-right: 30px;
+  		padding: 8px 18px;
+  		border: 1px solid #204156;
+  		position: relative;
 	}
-	
-### 7. font-size 
-	
-	h2 {
-		font-size: 48px;
-  		font-size: 56px;
-	}
-	
-	p {
-		font-size: 2rem;
-	}
-	
-	.hero a {
-		color: #00FFAA;
-		font-size: 24px;
-		text-decoration: none;
-  		font-size: 1.25em;
-	}
-	
-### 8. A Background Image
-	
-	.hero {
-		padding: 250px 0;
-		margin: 30px;
-	  	font-family: 'Trebuchet MS', Helvetica, sans-serif;
-	 	background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/bg.jpg");
-	 	background-size: cover;
-	  	color: #ffffff;
-	}
-	
-### 9. CSS id Selectors
-index.html
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-    	<title>Sprout</title>
-    	<link rel="stylesheet" type="text/css" href="main.css"/>
-    </head>
-    <body>
-    	<h1>Mystwood Publishers Ltd.</h1>
-    	<div class="hero">
-    		<h2>Sprout.</h2>
-    		<p>A book by J. Daniel Bedford</p>
-    		<a href="#">Read now.</a>
-    	</div>
-    	<p id="footer">&copy; Mystwood Publishers Limited</p>
-    </body>
-    </html>
-    
- main.css
- 
- 	#footer {
-      		font-size: 0.75rem;
-    	}
+	.contact-btn a:active {
+		top: 2px;
+	}
 	
-### 10. css-review
-
-Click on next and you are good to go. !
+### 11. Review 
+	Nice work! You've learned a lot. Let's review the web and CSS concepts covered in this lesson.
+	You are good to go. !
+	
+	
 
 	</Happy Coding>
 	
