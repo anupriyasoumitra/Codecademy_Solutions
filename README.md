@@ -4,7 +4,7 @@
 
 ## Learn To Code
 
-- Make a Website
+- **[Make a Website](https://github.com/srsandy/Codecademy_Solutions/tree/master/Make%20a%20Website)**
 - Make an Interactive Website
 - Learn Sass
 - Deploy a Website
@@ -14,7 +14,7 @@
 - Learn ReactJS: Part I
 - Learn ReactJS: Part II
 - Ruby on Rails Authentication
-- Learn the Command Line
+- **[Learn the Command Line](https://github.com/srsandy/Codecademy_Solutions/tree/master/Learn%20Command%20Line)**
 - Learn Git
 - Learn SQL
 - SQL: Table Transformation
