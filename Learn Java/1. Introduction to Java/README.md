@@ -1,26 +1,130 @@
-# Codecademy Solutions
 
-**[Codecademy](http://www.codecademy.com/)** is an online interactive platform that offers free coding classes in seven different programming languages including **Python**, **PHP**, **jQuery**, **JavaScript**, and **Ruby**, as well as markup languages **HTML** and **CSS**. As of January 2014, the site had over 24 million users who had completed over 100 million exercises. The site has received positive reviews from many blogs and websites, including the New York Times and TechCrunch.
+## 1. What's your name?
+   
+    public class YourName {
+	    public static void main(String[] args) {
 
-## Learn To Code
+		    System.out.println("Sandeep Ranjan");
 
-- **[Make a Website](https://github.com/srsandy/Codecademy_Solutions/tree/master/Make%20a%20Website)**
-- Make an Interactive Website
-- Learn Sass
-- Deploy a Website
-- Learn JavaScript
-- Learn Rails
-- Learn AngularJS
-- Learn ReactJS: Part I
-- Learn ReactJS: Part II
-- Ruby on Rails Authentication
-- **[Learn the Command Line](https://github.com/srsandy/Codecademy_Solutions/tree/master/Learn%20Command%20Line)**
-- Learn Git
-- Learn SQL
-- SQL: Table Transformation
-- SQL: Analyzing Business Metrics
-- Learn Java
-- Learn HTML & CSS
-- Learn Responsive Design
-- Learn Ruby
+	    }
+    }
+    
+## 2. Data Types I: int
 
+    public class DataTypes {
+	    public static void main(String[] args) {
+
+		    System.out.println(9);
+
+	    }
+    }
+    
+## 3. Data Types II: boolean
+
+    public class DataTypesB {
+	    public static void main(String[] args) {
+
+		    System.out.println(true);
+
+	    }
+    }
+   
+## 4. Data Types III: char
+
+    public class DataTypesC {
+	    public static void main(String[] args) {
+
+		    System.out.println('S');
+
+	    }
+    }
+    
+## 5. Variables 
+  
+    public class Variables {
+	    public static void main(String[] args) {
+
+		    int myNumber = 42;
+		    boolean isFun = true; 
+		    char movieRating = 'A'; 
+
+	    }
+    }
+    
+## 6. Whitespace
+
+    public class WhiteSpace {
+	    public static void main(String[] args) {
+
+		    boolean isFormatted = false;
+        System.out.println(isFormatted);
+
+	    }
+    }
+    
+## 7. Comments
+ 
+     public class Comments {
+	    public static void main(String[] args) {
+
+		    //System.out.println("Noise!");
+        /* Github is great */		
+	    }
+    }
+    
+## 8. Math: +, -, *, and /    
+
+     public class Arithmetic {
+	    public static void main(String[] args) {
+
+        int myNumber = 2*4;
+        System.out.println(myNumber);
+
+      }
+    }
+    
+## 9. Math: %
+
+    public class Modulo {
+	    public static void main(String[] args) {
+
+        int myRemainder = 8%3;
+        System.out.println(myRemainder);
+
+      }
+    } 
+    
+## 10. Relational Operators
+
+    public class RelationalOperators {
+	    public static void main(String[] args) {
+
+		    System.out.println(4>5);
+
+	    }
+    }
+    
+## 11. Equality Operators
+
+    public class EqualityOperators {
+	    public static void main(String[] args) {
+
+		    System.out.println(-2 != 'A');
+
+	    }
+    }
+    
+## 12. Generalizations
+
+    public class Generalizations {
+	    public static void main(String[] args) {
+
+        //Learing Java
+        boolean isComplete = true;
+        int awesomeLevel = 121;
+        int epicLevel = awesomeLevel*2;		
+        System.out.println(epicLevel);
+
+
+      }
+    }
