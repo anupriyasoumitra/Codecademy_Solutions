@@ -19,7 +19,7 @@
 - Learn SQL
 - SQL: Table Transformation
 - SQL: Analyzing Business Metrics
-- Learn Java
+- **[Learn Java](https://github.com/srsandy/Codecademy_Solutions/tree/master/Learn%20Java)**
 - Learn HTML & CSS
 - Learn Responsive Design
 - Learn Ruby
