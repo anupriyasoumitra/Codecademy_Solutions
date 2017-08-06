@@ -1,120 +1,130 @@
 
 ## 2. Boolean Operators: &&
 
-    public class And {
-    public static void main(String[] args) {
-
-        System.out.println(true && true);
-        
-    }
-}
+    	public class And {
+    		public static void main(String[] args) {
+        	System.out.println(true && true);
+    		}
+	}
     
-## 3. Data Types II: boolean
-
-    public class DataTypesB {
-	    public static void main(String[] args) {
-
-		    System.out.println(true);
-
-	    }
-    }
+## 3. Boolean Operators: ||
+	
+	public class Or {
+	   	public static void main(String[] args) {
+		System.out.println(true || true);
+		}
+	}
+    
    
-## 4. Data Types III: char
+## 4.  Boolean Operators: ! 
 
-    public class DataTypesC {
-	    public static void main(String[] args) {
+    public class Not {
+	public static void main(String[] args) {
 
-		    System.out.println('S');
-
-	    }
-    }
+		System.out.println(!false);
+		System.out.println( !(5>=1) );	
+		}
+	}
     
-## 5. Variables 
+## 5. Boolean Operators: Precedence
   
-    public class Variables {
-	    public static void main(String[] args) {
+    public class Precedence {
+	public static void main(String[] args) {
 
-		    int myNumber = 42;
-		    boolean isFun = true; 
-		    char movieRating = 'A'; 
+		boolean riddle = !( 1 < 8 &&  (5 > 2 || 3 < 5));
+		System.out.println(riddle);
 
-	    }
-    }
+		}
+	}
     
-## 6. Whitespace
+## 6. If Statement
 
-    public class WhiteSpace {
-	    public static void main(String[] args) {
-
-		    boolean isFormatted = false;
-        System.out.println(isFormatted);
-
-	    }
-    }
+    public class If {
+	public static void main(String[] args) {
+		if (true) {
+			System.out.println("Access granted.");
+		}}
+		}
     
-## 7. Comments
+## 7. If-Else Statement
  
-     public class Comments {
-	    public static void main(String[] args) {
+     public class IfElse {
+	public static void main(String[] args) {
+		if (!(7 <= 7)) {
+			System.out.println("Try again...");
 
-		    //System.out.println("Noise!");
-        /* Github is great */		
-	    }
-    }
+		} else {
+			System.out.println("Success!");
+		}
+	}
+	}
     
-## 8. Math: +, -, *, and /    
+## 8. If-ElseIf-Else Statement   
 
-     public class Arithmetic {
-	    public static void main(String[] args) {
-
-        int myNumber = 2*4;
-        System.out.println(myNumber);
-
-      }
-    }
+     public class IfElseIf {
+	public static void main(String[] args) {
+		int round = 1;
+		if (round > 12) {
+			System.out.println("The match is over!");
+		} else if (round > 0) {
+			System.out.println("The match is underway!");
+		}	else {
+			System.out.println("The boxing match hasn't started yet.");
+		}	
+	}
+	}
     
-## 9. Math: %
+## 9. Ternary Conditional
+	
+	public class Ternary {
+		public static void main(String[] args) {
+		int fuelLevel = 3;
+		char canDrive = (fuelLevel > 0) ? 'Y' : 'N';
+		System.out.println(canDrive);
 
-    public class Modulo {
-	    public static void main(String[] args) {
-
-        int myRemainder = 8%3;
-        System.out.println(myRemainder);
-
-      }
-    } 
+	}
+	}
     
-## 10. Relational Operators
+## 10. Switch Statement
 
-    public class RelationalOperators {
-	    public static void main(String[] args) {
+    public class Switch {
+	public static void main(String[] args) {
+		char penaltyKick = 'L';
+		switch (penaltyKick) {
+			case 'L': System.out.println("Messi shoots to the left and scores!");
+					break;
+			case 'R': System.out.println("Messi shoots to the right and misses the goal!");								break;
+			case 'C': System.out.println("Messi shoots down the center, but the keeper blocks it!");
+					break;
+			default:
+				System.out.println("Messi is in position...");
 
-		    System.out.println(4>5);
+		}
 
-	    }
-    }
+	}
+  	 }
     
-## 11. Equality Operators
+## 11. Generalizations
 
-    public class EqualityOperators {
-	    public static void main(String[] args) {
+    public class GeneralizationsB {
+	public static void main(String[] args) {
+	boolean tricky = false;
+	if(2015 > 2016) {
+			System.out.println("Stuck in the past...");
+		}else {
+			System.out.println("Upgraded to the future!");
+		}
+	int subwayTrain = 5;
+		switch (subwayTrain){
+			case 1 : System.out.println("This is a South Ferry bound train!");
+					break;
+			case 5 : System.out.println("This is a Brooklyn bound train!");										break;
+			case 7 : System.out.println("This is a Queens bound train!");
+					break;
+			default:
+				System.out.println("I'm not sure where that train goes...");
 
-		    System.out.println(-2 != 'A');
-
-	    }
-    }
-    
-## 12. Generalizations
-
-    public class Generalizations {
-	    public static void main(String[] args) {
-
-        //Learing Java
-        boolean isComplete = true;
-        int awesomeLevel = 121;
-        int epicLevel = awesomeLevel*2;		
-        System.out.println(epicLevel);
-
-
-      }
-    }
+		}
+	}
+	}
+   
