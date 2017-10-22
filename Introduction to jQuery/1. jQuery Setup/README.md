@@ -15,7 +15,7 @@
 	Click Next to Continue. !	
 
 ## 4. Adding jQuery
-   Open index.html at the end of body tag but before
+   Open index.html before the closing of the body tag but before this script tag
    ```
     <script src='js/main.js'></script> 
    ```
