@@ -27,5 +27,38 @@
 ## 5. .ready()
 
 	$(document).ready(() => {
-		
+
 	});   
+
+## 6. Targeting by Class
+
+	$(document).ready(() => {
+	  	$('.product-photo').show()
+	});
+
+## 7. Targeting by id
+	
+	$(document).ready(() => {
+		$('#nav-dropdown').hide();
+	});
+
+## 8. jQuery Objects
+
+	$(document).ready(() => {
+		let	$navDropdown = $('#nav-dropdown');  		$navDropdown.hide();
+	}); 
+
+## 9. Event Handlers
+
+	$(document).ready(() => {
+	  	const $menuButton = $('.menu-button'); 
+	    const $navDropdown = $('#nav-dropdown');  	  	$menuButton.on('click', () => {
+		    $navDropdown.show();
+		});
+	});
+
+## 10. Review: jQuery Introduction
+
+	Read the review and Click on UpNext
+	Now you are good to go to the Lesson.
+
